@@ -1,11 +1,28 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './components/App/App.tsx'
-import './index.css'
-import 'semantic-ui-css/semantic.min.css'
+// lié à React :
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+// lié au routeur :
+import { RouterProvider } from 'react-router-dom';
+// import { Provider } from 'react-redux';
+import router from './router';
+
+
+// lié au store :
+
+
+// lié au CSS :
+import 'semantic-ui-css/semantic.min.css';
+
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+
+// le rendu dans le DOM, avec redux qui encadre le routeur :
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    {/* <Provider store={store}> */}
+      <RouterProvider router={router} />
+    {/* </Provider> */}
+  </React.StrictMode>
+);
