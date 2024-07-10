@@ -4,12 +4,12 @@ import MediaQuery from 'react-responsive';
 export default function Home() {
 
   return ( <Segment id='bookers__content' inverted>
-    <Header inverted size='large' as='h2'>Associer votre compte Spotify à votre compte O'Book Groove</Header>
+    
     <MediaQuery minWidth={768}>
       <Grid centered columns={2} divided verticalAlign='middle'>
         <GridRow stretched>
           <GridColumn width={6}>
-            <Header inverted size='tiny' as='h4'>En associant vos comptes Spotify et ObookGroove vous bénéficierez de suggestions de livres personnalisées et en accord avec vos goûts musicaux
+            <Header inverted size='huge' as='h2'>Titre
             </Header>
           </GridColumn>
           <GridColumn width={6}>
@@ -18,11 +18,6 @@ export default function Home() {
         </GridRow>
         <GridRow stretched>
           <GridColumn width={12}>
-            <Button animated inverted size='large' fluid>
-              <ButtonContent id='bookers__button' visible>Associer mes comptes</ButtonContent>
-              <ButtonContent hidden>
-                <Icon name='sync' /> </ButtonContent>
-            </Button>
           </GridColumn>
         </GridRow>
       </Grid>
