@@ -1,0 +1,6 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "/dockerfile.railway"
+
+[deploy]
+startCommand = "echo starting!"
