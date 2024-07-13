@@ -1,6 +1,6 @@
 [build]
 builder = "DOCKERFILE"
-dockerfilePath = "/dockerfile.railway"
+dockerfilePath = "/dockerfile"
 
 [deploy]
-startCommand = "echo starting!"
+healthcheckPath = "/health"
