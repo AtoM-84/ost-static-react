@@ -6,7 +6,7 @@ import logo from '../../../assets/OST-logo 1.svg'
 
 export default function Footer() {
   return (
-    <Segment inverted className="footer ">
+    <Segment inverted id="footer">
       <Menu stackable inverted className="footer__menu">
         <MenuItem
           className="footer__logo"

@@ -13,6 +13,7 @@ import router from './router';
 
 // lié au CSS :
 import 'semantic-ui-css/semantic.min.css';
+import './index.scss';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
