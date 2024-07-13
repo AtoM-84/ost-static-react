@@ -1,0 +1,8 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "/dockerfile.railway"
+
+[deploy]
+startCommand = "echo starting!"
+healthcheckPath = "/"
+restartPolicyType = "ON_FAILURE"
