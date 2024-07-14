@@ -1,4 +1,4 @@
-import { Button, ButtonContent, Grid, Header, Segment, Icon, Image, GridRow, GridColumn, Container, Placeholder } from 'semantic-ui-react';
+import { Grid, Header, Segment, Image, GridRow, GridColumn, Container } from 'semantic-ui-react';
 import MediaQuery from 'react-responsive';
 
 import './Home.scss'
