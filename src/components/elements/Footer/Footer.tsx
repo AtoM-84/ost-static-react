@@ -1,19 +1,21 @@
-import { Menu, MenuItem, Segment } from 'semantic-ui-react';
+import { Menu, MenuItem, Segment, Image } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
 
 import './Footer.scss';
+import logo from '../../../assets/OST-logo 1.svg'
 
 export default function Footer() {
   return (
-    <Segment inverted className="footer ">
-      <Menu stackable inverted pointing secondary className="footer__menu">
+    <Segment inverted id="footer">
+      <Menu stackable inverted className="footer__menu">
         <MenuItem
           className="footer__logo"
-          name="logo"
-          as={NavLink}
-          to="/member/books"
+          name='logo'
+          source={logo}
+          // as={NavLink}
+          // to="/"
         >
-          <img className="footer__img" alt="logo" />
+           <Image id="header__img" src={logo} size='tiny' />
         </MenuItem>
 
         <MenuItem
@@ -37,7 +39,7 @@ export default function Footer() {
         <MenuItem className="footer__contact text-corpus" name="Contact">
           <span>
             Contactez-nous&nbsp;:{' '}
-            <a href="mailto:obookgroove@gmail.com">obookgroove@gmail.com</a>
+            <a href="mailto:outerspacetech.io">outer-space-tech.io</a>
           </span>
         </MenuItem>
       </Menu>

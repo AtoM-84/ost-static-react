@@ -2,23 +2,25 @@ import {
   Menu,
   MenuItem, 
   Segment,
-  
-
+  Image,
 } from 'semantic-ui-react'
 
 import { NavLink } from 'react-router-dom';
 
 import './HeaderOST.scss'
+import logo from '../../../assets/OST-logo 1.svg'
 
 export default function HeaderOST() {
   return (
     <Segment inverted className="header">
-    <NavLink className="header__logo" to="/member/books">
-      <img className="header__img" alt="logo" />
-    </NavLink>
-
-   
-      <Menu inverted secondary stackable size='huge'>
+      
+      <Menu inverted secondary stackable size='massive'>
+        <MenuItem>
+        <Image id="header__img" src={logo} />
+        </MenuItem>
+      </Menu>
+    
+      <Menu inverted secondary stackable size='massive'>
         <MenuItem
           className="header__item text-chapo"
           name="Accueil"
@@ -37,8 +39,6 @@ export default function HeaderOST() {
           Contact
         </MenuItem>
       </Menu>
-    
-  </Segment>
+    </Segment>
   );
 }
-
