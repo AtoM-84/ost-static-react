@@ -26,12 +26,8 @@ export default function Root() {
         <Sticky context={contextRef}>
           <Header />
         </Sticky>
-
-
           <Outlet />
-
       </div>
-
       <Footer />
     </>
   );
