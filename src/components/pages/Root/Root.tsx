@@ -27,9 +27,9 @@ export default function Root() {
           <Header />
         </Sticky>
 
-        <main className="main">
+
           <Outlet />
-        </main>
+
       </div>
 
       <Footer />
