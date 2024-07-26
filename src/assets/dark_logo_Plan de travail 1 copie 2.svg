@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: $$$/GeneralStr/196=Adobe Illustrator 27.6.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 167 58" style="enable-background:new 0 0 167 58;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:none;stroke:#B2B2B2;stroke-width:9;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#010202;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{display:inline;fill:none;stroke:#010202;stroke-width:7;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#B2B2B2;stroke-width:7;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#706F6F;stroke-width:7;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#010202;stroke-width:7;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st10{stroke:#FFFFFF;stroke-width:7;stroke-miterlimit:10;}
+	.st11{fill:#FFFFFF;stroke:#000000;stroke-width:7;stroke-miterlimit:10;}
+	.st12{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#717070;stroke-width:7;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{fill:#FFFFFF;stroke:#010202;stroke-width:2;stroke-miterlimit:10;}
+	.st15{stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#000000;stroke-width:7;stroke-miterlimit:10;}
+</style>
+<g id="fond">
+</g>
+<g id="complete-trace-dactive_state" class="st0">
+</g>
+<g id="piste3-90_xB0_-default_state" class="st0">
+</g>
+<g id="piste3-90_xB0_-active_state" class="st0">
+</g>
+<g id="piste3-45_xB0_-default_state" class="st0">
+</g>
+<g id="piste3-45_xB0_-active_state" class="st0">
+</g>
+<g id="piste3-rounded-default_state" class="st0">
+</g>
+<g id="piste3-rounded-active_state" class="st0">
+</g>
+<g id="piste2-default-state" class="st0">
+</g>
+<g id="piste2-active-state">
+	<g>
+		<polyline class="st6" points="48.6,37.8 122.1,37.8 130.8,29.6 141.3,29.6 		"/>
+	</g>
+</g>
+<g id="complete-trace-default_state">
+	<path class="st7" d="M45.9,37.6V21.2c0-6.4-5.2-11.6-11.6-11.6H21.6c-6.4,0-11.7,5-11.7,11.4v16.8c0,6.4,5.3,11.4,11.7,11.4l12.7,0
+		h46.9c3.5,0,6.3-2.8,6.3-6.3v-7.1c0-3.5-2.8-6.3-6.3-6.3H62.5c-3.5,0-6.3-2.8-6.3-6.3V16c0-3.5,2.8-6.3,6.3-6.3h38.4
+		c0.6,0,1.1,0.5,1.1,1.1V46c0,1.7,1.4,3.2,3.2,3.2h3c1.7,0,3.2-1.4,3.2-3.2V10.7c0-0.6,0.5-1.1,1.1-1.1h30.9h15.5"/>
+</g>
+<g id="piste1-default-state">
+	<line class="st11" x1="144.6" y1="29.2" x2="158.2" y2="29.2"/>
+</g>
+<g id="piste1-active-state">
+</g>
+<g id="via1-default_state">
+	<circle class="st12" cx="140.9" cy="29.2" r="4.2"/>
+</g>
+<g id="via2-default_state">
+	<circle class="st12" cx="46.2" cy="37.8" r="4.2"/>
+</g>
+</svg>

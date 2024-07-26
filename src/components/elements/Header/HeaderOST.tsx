@@ -50,9 +50,9 @@ export default function HeaderOST() {
       </Menu>
     </Segment>
   
-       <button className='burger__bar'>
+       {/* <button className='burger__bar'>
          <span></span>
-       </button>
+       </button> */}
    
   </nav>
    

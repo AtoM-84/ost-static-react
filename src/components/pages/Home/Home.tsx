@@ -3,27 +3,28 @@ import MediaQuery from "react-responsive";
 
 import "./Home.scss";
 
+
 const contentHomepage = [
     {
-        title: "Titre 1",
+        title: "Electronic Design",
+        textContent:
+            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.",
+        imageUrl: './carte-elec.png',
+    },
+    {
+        title: "System Architecture",
+        textContent:
+            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.",
+        imageUrl: "./Default_A_futuristic_electronic_board_illustration_in_SVG_form_0.jpg",
+    },
+    {
+        title: "HDL and Embedded C Development",
         textContent:
             "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.",
         imageUrl: "/images/wireframe/square-image.png",
     },
     {
-        title: "Titre 2",
-        textContent:
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.",
-        imageUrl: "/images/wireframe/square-image.png",
-    },
-    {
-        title: "Titre 3",
-        textContent:
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.",
-        imageUrl: "/images/wireframe/square-image.png",
-    },
-    {
-        title: "Titre 4",
+        title: "Electronic Parts and Semiconductor Expertise",
         textContent:
             "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.",
         imageUrl: "/images/wireframe/square-image.png",
@@ -35,14 +36,16 @@ function RowHompage(contentElement: { title: string; textContent: string; imageU
         return (
             <GridRow stretched padded>
                 <GridColumn width={5} content="centered" padded="vertically">
-                    <Header inverted size="tiny" as="h1">
+                    <Header inverted as="h2">
                         {contentElement.title}
                     </Header>
-                    <p>{contentElement.textContent}</p>
+                    <Container textAlign='justified'>
+                      <p>{contentElement.textContent}</p>
+                    </Container>    
                 </GridColumn>
                 <GridColumn width={3} content="centered" padded="vertically">
                     <Container>
-                        <Image src={contentElement.imageUrl} fluid rounded></Image>
+                        <Image src={contentElement.imageUrl} fluid rounded size="big"></Image>
                     </Container>
                 </GridColumn>
             </GridRow>
@@ -56,10 +59,12 @@ function RowHompage(contentElement: { title: string; textContent: string; imageU
                     </Container>
                 </GridColumn>
                 <GridColumn width={5} content="centered" padded="vertically">
-                    <Header inverted size="tiny" as="h1">
+                    <Header inverted as="h2">
                         {contentElement.title}
                     </Header>
-                    <p>{contentElement.textContent}</p>
+                    <Container textAlign='justified'>
+                      <p>{contentElement.textContent}</p>
+                    </Container> 
                 </GridColumn>
             </GridRow>
         );
@@ -80,10 +85,12 @@ export default function Home() {
                     {contentHomepage.map((element) => (
                         <>
                             <GridColumn width={16} content="centered" padded="vertically">
-                                <Header inverted size="tiny" as="h1">
+                                <Header inverted as="h2">
                                     {element.title}
                                 </Header>
-                                <p>{element.textContent}</p>
+                                <Container textAlign='justified'>
+                                  <p>{element.textContent}</p>
+                                </Container> 
                             </GridColumn>
                             <GridColumn width={16} content="centered" padded="vertically">
                                 <Container>
