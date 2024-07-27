@@ -1,7 +1,5 @@
 import { Grid, Header, Segment, Image, GridRow, GridColumn, Container } from "semantic-ui-react";
 import MediaQuery from "react-responsive";
-import HeaderMenuDesktop from '../'
-import HeaderMenuMobile from '../'
 import "./Home.scss";
 
 
