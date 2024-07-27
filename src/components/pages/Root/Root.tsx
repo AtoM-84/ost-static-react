@@ -1,13 +1,19 @@
 import { Outlet, useLocation } from 'react-router-dom';
 import { createRef, useEffect } from 'react';
 import { Sticky } from 'semantic-ui-react';
+import { useMediaQuery } from 'react-responsive';
 
-import Header from '../../elements/Header/HeaderOST';
+import HeaderMenuDesktop from '../../elements/Header/HeaderMenuDesktop/HeaderMenuDesktop.tsx';
+import HeaderMenuMobile from '../../elements/Header/HeaderMenuMobile/HeaderMenuMobile.tsx';
 import Footer from '../../elements/Footer/Footer';
 
 import './Root.scss';
 
+
 export default function Root() {
+
+  const isDesktop = useMediaQuery({ query: '(min-width: 769px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
   // on récupère l'URL pour surveiller lorsqu'elle change
   const { pathname } = useLocation();
 
@@ -24,7 +30,10 @@ export default function Root() {
     <>
       <div className='container' ref={contextRef}>
         <Sticky context={contextRef}>
-          <Header />
+
+        {isDesktop && <HeaderMenuDesktop /> }
+        {isMobile && <HeaderMenuMobile />}
+          
         </Sticky>
           <Outlet />
       </div>
