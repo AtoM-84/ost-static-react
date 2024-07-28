@@ -1,4 +1,4 @@
-import { Menu, MenuItem, Segment, Image, Button } from "semantic-ui-react";
+import { Menu, MenuItem, Image, MenuMenu, Dropdown } from "semantic-ui-react";
 // import { createSelector } from  '@reduxjs/toolkit';
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../../../../features/uiSlice/uiSlice";
@@ -23,18 +23,24 @@ export default function HeaderMenuMobile() {
 
     return (
         <nav>
-            <Segment inverted className="header">
-                <Menu inverted secondary stackable size="small">
-                    <MenuItem>
+                <Menu inverted secondary size='large' id="header__color">
+                    <MenuItem inverted> 
                         <Image id="header__img" src={logo} />
                     </MenuItem>
+                        <MenuMenu position='right'>
+                            <Dropdown
+                                item
+                                simple
+                                icon='bars'
+                                size='huge'
+                                direction='right'
+                                onClick={handleClick}
+                            />
+                        </MenuMenu>
                 </Menu>
-               
-                <Button size='small' inverted compact icon='bars' onClick={handleClick} />
-            </Segment>
-            <Segment inverted size="huge">
+            
                 {(menu) ? <HeaderMenuMobileContent /> : <></>}
-            </Segment>
+            
         </nav>
     );
 }
