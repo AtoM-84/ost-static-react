@@ -28,22 +28,22 @@ export default function HeaderOST() {
             
                 
                 <Menu inverted secondary stackable size="large" id="nav__menu">
-                    <MenuItem className="header__item text-chapo" name="Accueil" as={NavLink} to="/">
+                    <MenuItem className="header__item text-chapo" name="Home" as={NavLink} to="/">
                         Home
                     </MenuItem>
 
-                    <MenuItem className="header__item text-chapo" name="Profil" as={NavLink} to="/Contact">
+                    <MenuItem className="header__item text-chapo" name="Contact" as={NavLink} to="/Contact">
                         Contact
                     </MenuItem>
 
-                    {/* <MenuItem
-          className="header__item text-chapo"
-          name="Profil"
-          as={NavLink}
-          to="/Blog"
-        >
-          Blog
-        </MenuItem> */}
+                    <MenuItem
+                    className="header__item text-chapo"
+                    name="Blog"
+                    as={NavLink}
+                    to="/Blog"
+                    >
+                    Blog
+                    </MenuItem>
                 </Menu>
             </Segment>
 

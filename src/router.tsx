@@ -8,6 +8,7 @@ import {
 // toutes les pages :
 import Home from './components/pages/Home/Home';
 import Contact from './components/pages/Contact/Contact';
+import Blog from './components/pages/Blog/Blog';
 
 // fichier racine indiquant les parties "fixes" d'une page (header et footer)
 import Root from './components/pages/Root/Root';
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<Root />} >
       <Route index element={<Home />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/blog" element={<Blog />} />
     </Route>
   )
 );
