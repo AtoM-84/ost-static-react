@@ -1,13 +1,8 @@
-.ui.cards {
-    margin: 4rem;
-    padding-top: 3rem;
-    padding-bottom: 8rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+.ui.cards a.card, .ui.link.card, .ui.link.cards .card, a.ui.card {
+    margin-top: 3rem;
 }
 
-.ui.card>.content, .ui.cards>.card>.content {
-    width: fit-content;
+.ui.centered.grid, .ui.centered.grid>.row, .ui.grid>.centered.row {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
-
-
