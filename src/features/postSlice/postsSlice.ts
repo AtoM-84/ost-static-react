@@ -15,8 +15,9 @@ export const initialState: PostsState = {
 };
 
 export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
-    const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/blog`);
-    return data; 
+    const {data} = await axios.get(`http://localhost:3000/blog`);
+    console.log(data);
+    return data
 }) 
 
 const postsSlice = createSlice({
@@ -39,4 +40,5 @@ const postsSlice = createSlice({
   }
 })
 
+export const selectAllPosts = (state:any) => state.posts.list
 export default postsSlice.reducer; 
