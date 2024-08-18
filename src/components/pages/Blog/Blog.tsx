@@ -125,6 +125,7 @@ function CardPost({ title, subtitle, author }: ContentProps) {
 }
 
 export default function Blog() {
+    
     const posts = useAppSelector(selectAllPosts);
     return (
         <Grid stackable container verticalAlign='middle' centered>
