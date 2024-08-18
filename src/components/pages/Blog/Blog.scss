@@ -1,8 +1,17 @@
 .ui.cards a.card, .ui.link.card, .ui.link.cards .card, a.ui.card {
-    margin-top: 3rem;
+    margin-top: 30%;
 }
 
 .ui.centered.grid, .ui.centered.grid>.row, .ui.grid>.centered.row {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+.ui.card {
+    margin: none;
+}
+
+.card {
+    height: 37.5rem;
+}
+

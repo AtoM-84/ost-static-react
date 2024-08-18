@@ -108,17 +108,21 @@ interface ContentProps {
     subtitle: string;
     author: string;
     publicationdate?: string | number;
+    illustration: string;
     posts?: Post[]
 }
 
 function CardPost({ title, subtitle, author }: ContentProps) {
     return (
-        <GridColumn stretched computer={4} tablet={8} mobile={16} padded>
-            <CardGroup streched>
-                <Card fluid header={title}
+        <GridColumn padded>
+            <CardGroup stackable>
+                <Card className='card' padded fluid link
+                    header={title}
                     description={subtitle}
                     meta={author}
-                />
+                    image='src\assets\5_interconnect_1120x1120.jpg'
+                    >
+                    </Card>
             </CardGroup>
         </GridColumn>
     )
@@ -128,7 +132,7 @@ export default function Blog() {
     
     const posts = useAppSelector(selectAllPosts);
     return (
-        <Grid stackable container verticalAlign='middle' centered>
+        <Grid stackable container verticalAlign='middle' centered stretched doubling columns={3}>
             <GridRow padded>
                 {posts.map((post: Post) =>
                     CardPost({
