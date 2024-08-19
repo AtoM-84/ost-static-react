@@ -1,7 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import uiSlice from '../features/uiSlice/uiSlice';
 import postsSlice from '../features/postSlice/postsSlice';
-import {fetchPosts} from '../features/postSlice/postsSlice';
 
 const store = configureStore({
   reducer: {
@@ -10,7 +9,7 @@ const store = configureStore({
   },
 });
 
-store.dispatch(fetchPosts());
+// store.dispatch(fetchPosts());
 
 export default store;
 
