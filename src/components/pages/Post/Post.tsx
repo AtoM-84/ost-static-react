@@ -1,4 +1,4 @@
-import { Container, Grid, Header, PlaceholderImage, Placeholder, Segment, Breadcrumb, BreadcrumbSection, BreadcrumbDivider } from "semantic-ui-react";
+import { Container, Grid, Header, Image, Segment, Breadcrumb, BreadcrumbSection, BreadcrumbDivider } from "semantic-ui-react";
 import MediaQuery from "react-responsive";
 import "./Post.scss";
 
@@ -17,9 +17,7 @@ export default function Post() {
                         <Header as='h2' textAlign='left' inverted>Post subtitle</Header>
                         <Header as='h3' textAlign='right' inverted>Author</Header>
                         <Header as='h4'textAlign='right' inverted>Publication date</Header>
-                        <Placeholder inverted fluid>
-                            <PlaceholderImage square/>
-                        </Placeholder>
+                        <Image src='/5_interconnect_1120x1120.jpg' size="huge"/>
                         <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                         ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et
