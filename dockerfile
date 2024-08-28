@@ -8,7 +8,9 @@ RUN npm install
 
 RUN npm i -g serve
 
-COPY . .
+COPY . ./
+
+ARG VITE_API_URL
 
 RUN npm run build
 
