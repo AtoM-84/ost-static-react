@@ -16,7 +16,7 @@ export const initialState: PostsState = {
 };
 
 export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
-    const { data } = await axios.get(`http://localhost:3000/blog`);
+    const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/blog`);
     return data
 })
 
