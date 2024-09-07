@@ -12,6 +12,38 @@
 }
 
 .card {
-    height: 37.5rem;
+    height: fit-content;
 }
 
+#card{
+    background: #171717;
+    border-color: #292929;
+    border-radius: 15px;
+    box-shadow:  0 1px 3px 0 #292929, 0 0 0 1px #292929;
+    font-family: "Epilogue", sans-serif !important;
+}
+
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+    display: block;
+    margin: '';
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #ffffff !important;
+}
+
+.ui.card>.content>.description, .ui.cards>.card>.content>.description {
+    clear: both;
+    color: #9F9F9F !important;
+    height: fit-content;
+}
+.ui.card>.content>.meta, .ui.cards>.card>.content {
+    color: #ffffff !important;
+    padding-top: 0.5rem;
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}

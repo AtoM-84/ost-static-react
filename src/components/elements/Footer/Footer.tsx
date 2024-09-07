@@ -19,16 +19,16 @@ export default function Footer() {
                 </MenuItem>
 
                 <MenuItem className="footer__item text-corpus" name="legal notices" as={NavLink} to="/legal-notice">
-                    Mentions Légales
+                    Legal Notices
                 </MenuItem>
 
                 <MenuItem className="footer__item text-corpus" name="CGU" as={NavLink} to="/general-conditions-use">
-                    Conditions Générales d&apos;Utilisation
+                    General Conditions
                 </MenuItem>
 
                 <MenuItem className="footer__contact text-corpus" name="Contact">
                     <span>
-                        Contactez-nous&nbsp;: <a href="mailto:outerspacetech.io">outer-space-tech.io</a>
+                        Contact us&nbsp;: <a href="mailto:outerspacetech.io">contact@outer-space-tech.com</a>
                     </span>
                 </MenuItem>
             </Menu>

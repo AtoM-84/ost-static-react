@@ -116,7 +116,7 @@ function CardPost({ title, subtitle, author }: ContentProps) {
     return (
         <GridColumn padded>
             <CardGroup stackable>
-                <Card
+                <Card id="card" 
                     className="card"
                     padded
                     fluid
