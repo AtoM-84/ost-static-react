@@ -162,6 +162,9 @@ export default function Post() {
                             author_name={post.author_name}
                             sub_title={post.sub_title}
                             content={post.content}
+                            id = {post.id}
+                            status = {post.status}
+                            error = {post.error}
                         />
                     )}
                     

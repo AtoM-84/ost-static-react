@@ -1,10 +1,10 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { Post } from '../../@types/post';
+import { PostType } from '../../@types/post';
 import { RootState } from '../../store/store.ts'
 import axios from 'axios';
 
 interface PostsState {
-    list: Post[];
+    list: PostType[];
     status: "idle" | "pending" | "rejected" | "fulfilled",
     error: string | undefined | null
 }
