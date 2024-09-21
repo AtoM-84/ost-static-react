@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { FormField, Button, Form, Image, Segment, Header } from "semantic-ui-react";
+import { FormField, Button, Form, Segment, GridRow, GridColumn, Grid } from "semantic-ui-react";
 export default function Contact() {
     const navigate = useNavigate();
 
@@ -13,22 +13,22 @@ export default function Contact() {
     };
 
     return (
-        <Segment inverted className="signup">
-            <Form inverted size="large" className="signup__form" onSubmit={handleSubmit}>
-                <Header inverted as="h1" className="h1 signup__header">
-                    <Image />
-                    Créer un compte
-                </Header>
-                <FormField>
-                    <label htmlFor="email">Email</label>
-                    <input placeholder="email@domain.com" id="email" type="email" />
-                </FormField>
-                <FormField>
-                    <label htmlFor="pseudo">Pseudo</label>
-                    <input placeholder="Pseudo" id="pseudo" type="text" />
-                </FormField>
-                <Button type="submit">Créer un compte</Button>
-            </Form>
-        </Segment>
+        <Grid columns={2} centered>
+            <GridRow>
+                <GridColumn width={4} content="centered" padded="vertically">
+                    <Segment inverted>
+                        <Form inverted size="big" className="signup__form" onSubmit={handleSubmit}>
+                    
+                            <FormField>
+                                <label htmlFor="email">Your email</label>
+                                <input placeholder="email@domain.com" id="email" type="email" />
+                            </FormField>
+                            <FormField label="Your message" control="textarea" rows="5" />
+                            <Button type="submit">Send</Button>
+                        </Form>
+                    </Segment>
+                </GridColumn>
+            </GridRow>
+        </Grid>
     );
 }

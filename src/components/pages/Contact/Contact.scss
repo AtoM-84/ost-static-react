@@ -1,0 +1,11 @@
+.ui.centered.grid, .ui.centered.grid > .row, .ui.grid > .centered.row {
+    margin-top: 7rem !important;
+}
+
+.ui.segment:first-child {
+    margin-top: 6rem !important;
+}
+
+.ui.segment:last-child {
+    margin-bottom: 10rem;
+}

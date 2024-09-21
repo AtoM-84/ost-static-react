@@ -12,15 +12,23 @@
 }
 
 .card {
-    height: fit-content;
+    height: 600px;
 }
+
+
 
 #card{
     background: #171717;
-    border-color: #292929;
+    border-color: #292929 !important;
     border-radius: 15px;
     box-shadow:  0 1px 3px 0 #292929, 0 0 0 1px #292929;
     font-family: "Epilogue", sans-serif !important;
+}
+
+#card:hover {
+    background: #202020;
+    border-color: #292929;
+    box-shadow:  2px 2px 5px 5px #181818, 0 0 0 1px #292929;
 }
 
 .ui.card>.content>.header, .ui.cards>.card>.content>.header {
