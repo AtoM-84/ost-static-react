@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
 import uiSlice from '../features/uiSlice/uiSlice';
-import postsSlice from '../features/postSlice/postsSlice';
+import postsSlice from '../features/postsSlice/postsSlice';
+import postSlice from '../features/postSlice/postSlice';
 
 const store = configureStore({
   reducer: {
     ui: uiSlice,
-    posts: postsSlice
+    posts: postsSlice,
+    post : postSlice
   },
 });
 
