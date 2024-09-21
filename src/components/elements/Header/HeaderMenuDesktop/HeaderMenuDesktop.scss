@@ -1,27 +1,20 @@
-.ui.inverted.segment {
-  border-radius: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  font-family: "Epilogue", sans-serif;
-}
-
-.ui.inverted.segment.header {
-  box-shadow: 0px 8px 10px rgb(15, 15, 15);
-  height: 80px;
-}
-
 #header__img {
-  max-width: 200%;
-  margin-top: 5px;
+    max-width: 200%;
+}
+
+#nav__menu {
+    background-color: #1b1c1d;
+    box-shadow: 0px 8px 10px rgb(15, 15, 15);
+    height: 110px;
+    font-family: "Epilogue", sans-serif;
+    z-index:1001 !important;
 }
 
 .ui.image {
-  max-width: 260%;
-  width: max-content;
+    max-width: 260%;
+    width: max-content;
 }
 
 img {
-  max-width: 260%;
+    max-width: 260%;
 }
